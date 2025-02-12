@@ -1,0 +1,5 @@
+C:\Users\sansk\Desktop\License\obj\Debug\License.csproj.AssemblyReference.cache
+C:\Users\sansk\Desktop\License\obj\Debug\License.Form1.resources
+C:\Users\sansk\Desktop\License\obj\Debug\License.Form2.resources
+C:\Users\sansk\Desktop\License\obj\Debug\License.Resources.resources
+C:\Users\sansk\Desktop\License\obj\Debug\License.csproj.GenerateResource.cache

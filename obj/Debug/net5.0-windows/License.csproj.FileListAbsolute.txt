@@ -1,0 +1,5 @@
+C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.csproj.AssemblyReference.cache
+C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.AssemblyInfoInputs.cache
+C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.AssemblyInfo.cs
+C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.csproj.CoreCompileInputs.cache
