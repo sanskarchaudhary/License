@@ -3,3 +3,4 @@ C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.GeneratedMSBuild
 C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.AssemblyInfoInputs.cache
 C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.AssemblyInfo.cs
 C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.csproj.CoreCompileInputs.cache
+C:\Users\sansk\Desktop\License\obj\Debug\net5.0-windows\License.sourcelink.json

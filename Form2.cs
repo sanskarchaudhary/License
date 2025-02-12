@@ -19,7 +19,7 @@ using System.Windows.Forms;
 namespace License
 {
   [DesignerGenerated]
-  public class Form2 : Form
+  public partial class Form2 : Form
   {
     private IContainer components;
     private DateTime? firstKeyEntryDate;
@@ -280,7 +280,8 @@ namespace License
       this.PerformLayout();
     }
 
-    internal virtual TextBox TextBox1
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual TextBox TextBox1
     {
       get => this._TextBox1;
       [MethodImpl(MethodImplOptions.Synchronized)] set
@@ -297,7 +298,12 @@ namespace License
       }
     }
 
-    internal virtual Button Button1
+    private TextBox _TextBox1;
+    private Button _Button1;
+    private LinkLabel _LinkLabel1;
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual Button Button1
     {
       get => this._Button1;
       [MethodImpl(MethodImplOptions.Synchronized)] set
@@ -314,7 +320,8 @@ namespace License
       }
     }
 
-    internal virtual LinkLabel LinkLabel1
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual LinkLabel LinkLabel1
     {
       get => this._LinkLabel1;
       [MethodImpl(MethodImplOptions.Synchronized)] set
@@ -332,69 +339,90 @@ namespace License
     }
 
     [field: AccessedThroughProperty("Label1")]
-    internal virtual Label Label1 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual Label Label1 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("Label2")]
-    internal virtual Label Label2 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual Label Label2 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox6")]
-    internal virtual PictureBox PictureBox6 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox6 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox5")]
-    internal virtual PictureBox PictureBox5 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox5 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox4")]
-    internal virtual PictureBox PictureBox4 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox4 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox3")]
-    internal virtual PictureBox PictureBox3 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox3 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox2")]
-    internal virtual PictureBox PictureBox2 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox2 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox1")]
-    internal virtual PictureBox PictureBox1 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox1 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox7")]
-    internal virtual PictureBox PictureBox7 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox7 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox8")]
-    internal virtual PictureBox PictureBox8 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox8 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox9")]
-    internal virtual PictureBox PictureBox9 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox9 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox10")]
-    internal virtual PictureBox PictureBox10 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox10 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox11")]
-    internal virtual PictureBox PictureBox11 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox11 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("PictureBox12")]
-    internal virtual PictureBox PictureBox12 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual PictureBox PictureBox12 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("ToolTip3")]
-    internal virtual ToolTip ToolTip3 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual ToolTip ToolTip3 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("ToolTip2")]
-    internal virtual ToolTip ToolTip2 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual ToolTip ToolTip2 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("ToolTip1")]
-    internal virtual ToolTip ToolTip1 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual ToolTip ToolTip1 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("ToolTip4")]
-    internal virtual ToolTip ToolTip4 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual ToolTip ToolTip4 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("ToolTip6")]
-    internal virtual ToolTip ToolTip6 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual ToolTip ToolTip6 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("ToolTip5")]
-    internal virtual ToolTip ToolTip5 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual ToolTip ToolTip5 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
     [field: AccessedThroughProperty("Label3")]
-    internal virtual Label Label3 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        internal virtual Label Label3 { get; [MethodImpl(MethodImplOptions.Synchronized)] set; }
 
-    public event EventHandler<Form2.ValidKeyEventArgs> ValidKeyEntered;
+    public event EventHandler<ValidKeyEventArgs> ValidKeyEntered;
 
     private void Form2_Load(object sender, EventArgs e)
     {
@@ -435,7 +463,7 @@ namespace License
         string str = strArray[1];
         DateTime minValue = DateTime.MinValue;
         ref DateTime local = ref minValue;
-        if (DateTime.TryParse(str, ref local))
+        if (DateTime.TryParse(str, out local))
         {
           keyEntryDate = new DateTime?(DateTime.Parse(strArray[1]));
           goto label_4;
@@ -463,7 +491,7 @@ label_4:
     private bool IsKeyExpired(string key)
     {
       DateTime? keyEntryDate = this.GetKeyEntryDate(key);
-      return keyEntryDate.HasValue && DateTime.op_Subtraction(DateTime.Now, keyEntryDate.Value).TotalDays > 30.0;
+      return keyEntryDate.HasValue && (DateTime.Now - keyEntryDate.Value).TotalDays > 30.0;
     }
 
     private void DisplayRemainingDaysMessage()
@@ -473,7 +501,7 @@ label_4:
       string firstKey = this.GetFirstKey();
       if (!string.IsNullOrEmpty(firstKey) && !this.IsKeyExpired(firstKey))
       {
-        int num = checked ((int) Math.Round(DateTime.op_Subtraction(this.firstKeyEntryDate.Value.AddDays(30.0), DateTime.Now).TotalDays));
+        int num = checked ((int) Math.Round((this.firstKeyEntryDate.Value.AddDays(30.0) - DateTime.Now).TotalDays));
         if (num > 0)
         {
           this.Label2.Text = string.Format("    Your license will expiere in {0} day(s).", (object) num);
@@ -565,7 +593,8 @@ label_4:
       }
     }
 
-    public string TextLabel2Text
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string TextLabel2Text
     {
       set => this.Label2.Text = value;
     }
@@ -582,9 +611,9 @@ label_4:
         if (!this.KeyExistsInLicenseFile(str))
         {
           // ISSUE: reference to a compiler-generated field
-          EventHandler<Form2.ValidKeyEventArgs> validKeyEnteredEvent = this.ValidKeyEnteredEvent;
+          EventHandler<ValidKeyEventArgs> validKeyEnteredEvent = this.ValidKeyEntered;
           if (validKeyEnteredEvent != null)
-            validKeyEnteredEvent((object) this, new Form2.ValidKeyEventArgs(str));
+            validKeyEnteredEvent((object) this, new ValidKeyEventArgs(str));
           this.SaveTextToFile(str);
           int num = (int) MessageBox.Show("Valid license key. The blockchain has been enabled.", "Valid license key", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
           Application.Restart();

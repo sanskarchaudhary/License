@@ -12,6 +12,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
+using System.Windows;
 
 namespace License.My
 {
@@ -48,6 +49,17 @@ namespace License.My
     {
       this.MinimumSplashScreenDisplayTime = 0;
       return base.OnInitialize(commandLineArgs);
+    }
+  }
+
+  public partial class App : Application
+  {
+    [STAThread]
+    public static void Main()
+    {
+      var app = new App();
+      app.InitializeComponent();
+      app.Run(new Form1());
     }
   }
 }
